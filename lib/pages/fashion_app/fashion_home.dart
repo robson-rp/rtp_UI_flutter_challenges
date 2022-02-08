@@ -3,6 +3,7 @@ import 'package:flutter_challenges/pages/fashion_app/fashion_details_page.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 
+// ignore: constant_identifier_names
 enum GSize { S, M, L, XL }
 
 enum GarmetType { coat, jacket, hat, dress }
@@ -238,12 +239,9 @@ class _FashionHomeState extends State<FashionHome> {
   }
 }
 
+// ignore: must_be_immutable
 class GarmentThumbnail extends StatelessWidget {
-  // ignore: use_key_in_widget_constructors
-  GarmentThumbnail(
-    this.item,
-    this.onClick,
-  );
+  GarmentThumbnail(this.item, this.onClick, {Key? key}) : super(key: key);
   void Function() onClick;
   final GarmentModel item;
   @override
