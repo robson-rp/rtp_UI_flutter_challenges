@@ -1,4 +1,4 @@
-# flutter_challenges_by_robson_rtp
+# Flutter UI challenges by Robson Rtp
 
 Is a collection of mobile apps UIs 
 
@@ -9,5 +9,4 @@ Is a collection of mobile apps UIs
 Based on [this](https://dribbble.com/shots/16893781-Fashion-Mobile-Apps-Exploration?utm_source=Clipboard_Shot&utm_campaign=Ohaio&utm_content=Fashion%20Mobile%20Apps%20Exploration&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=Ohaio&utm_content=Fashion%20Mobile%20Apps%20Exploration&utm_medium=Social_Share) dribble shot.
 
 ### Shots
-![Fashion1](https://github.com/robson-rp/rtp_UI_flutter_challenges/blob/master/assets/shots/fashion1.png?raw=true) ![Fashion2](https://github.com/robson-rp/rtp_UI_flutter_challenges/blob/master/assets/shots/fashion2.png?raw=true)
-![Fashion3](https://github.com/robson-rp/rtp_UI_flutter_challenges/blob/master/assets/shots/fashion3.png?raw=true)
+<img src='/assets/shots/fashion1.png' width = '300'/> <img src='/assets/shots/fashion2.png' width = '300'/> <img src='/assets/shots/fashion3.png' width = '300'/>
