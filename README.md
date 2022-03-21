@@ -10,3 +10,11 @@ Based on [this](https://dribbble.com/shots/16893781-Fashion-Mobile-Apps-Explorat
 
 ### Shots
 <img src='/assets/shots/fashion1.png' width = '300'/> <img src='/assets/shots/fashion2.png' width = '300'/> <img src='/assets/shots/fashion3.png' width = '300'/>
+
+
+## 2. Basic calculator
+
+A functional basic calculator using neumorphism design with dark mode support
+
+### Shots
+<img src='/assets/shots/calculator1.png' width = '300'/> <img src='/assets/shots/calculator2.png' width = '300'/>
