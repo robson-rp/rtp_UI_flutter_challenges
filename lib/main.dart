@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_challenges/pages/fashion_app/fashion_onboarding_screen.dart';
 
+import 'pages/calculator/calculator_main_screen.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -16,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const FashionOnBoardingScreen(),
+      home: const CalculatorMainScreen(),
     );
   }
 }
