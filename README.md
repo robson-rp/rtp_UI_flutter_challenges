@@ -18,3 +18,14 @@ A functional basic calculator using neumorphism design with dark mode support
 
 ### Shots
 <img src='/assets/shots/calculator1.png' width = '300'/> <img src='/assets/shots/calculator2.png' width = '300'/>
+
+## 3. Login Page 1
+
+A login page based on a figma community design: https://www.figma.com/community/file/1090930805547151908
+Credits:
+[Facebook ícone criados por Freepik - Flaticon](https://www.flaticon.com/br/icones-gratis/facebook)
+[Google ícone criados por Freepik - Flaticon](https://www.flaticon.com/br/icones-gratis/google)
+[Fruta ícone criados por Dave Gandy - Flaticon](https://www.flaticon.com/br/icones-gratis/fruta)
+
+### Shot
+<img src='/assets/shots/login1.png' width = '300'/>
