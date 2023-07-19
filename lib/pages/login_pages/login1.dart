@@ -30,7 +30,7 @@ class _Login1State extends State<Login1> {
                   ),
                   Text(
                     'Login Details',
-                    style: Theme.of(context).textTheme.headline5,
+                    style: Theme.of(context).textTheme.headlineSmall,
                   ),
                   const SizedBox(
                     height: 10,
@@ -82,9 +82,9 @@ class _Login1State extends State<Login1> {
                   ),
                   SizedBox(
                     width: screenSize.width - 40,
-                    child: Row(
+                    child: const Row(
                       mainAxisAlignment: MainAxisAlignment.center,
-                      children: const [
+                      children: [
                         Text('Or login with',
                             style: TextStyle(
                               fontSize: 12,

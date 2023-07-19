@@ -56,7 +56,7 @@ class _FashionHomeState extends State<FashionHome> {
 
   @override
   Widget build(BuildContext context) {
-    final _bottomNavBar = BottomNavigationBar(
+    final bottomNavBar = BottomNavigationBar(
         elevation: 0,
         backgroundColor: Colors.white,
         selectedItemColor: Colors.black87,
@@ -234,7 +234,7 @@ class _FashionHomeState extends State<FashionHome> {
           ),
         ),
       ),
-      bottomNavigationBar: _bottomNavBar,
+      bottomNavigationBar: bottomNavBar,
     );
   }
 }
@@ -257,13 +257,13 @@ class GarmentThumbnail extends StatelessWidget {
                   child: Stack(
                 children: [
                   DecoratedBox(
-                    child: Image(
-                      image: AssetImage(item.imageAsset),
-                      fit: BoxFit.fitHeight,
-                    ),
                     decoration: BoxDecoration(
                       color: Colors.black38,
                       borderRadius: BorderRadius.circular(5),
+                    ),
+                    child: Image(
+                      image: AssetImage(item.imageAsset),
+                      fit: BoxFit.fitHeight,
                     ),
                   ),
                   if (item.rebate != 0)
@@ -288,7 +288,7 @@ class GarmentThumbnail extends StatelessWidget {
               Text(item.name,
                   style: Theme.of(context)
                       .textTheme
-                      .headline6!
+                      .titleLarge!
                       .copyWith(fontSize: 16)),
               const SizedBox(
                 height: 2,
@@ -296,7 +296,7 @@ class GarmentThumbnail extends StatelessWidget {
               Text(types[item.type]!,
                   style: Theme.of(context)
                       .textTheme
-                      .headline4!
+                      .headlineMedium!
                       .copyWith(fontSize: 14)),
               const SizedBox(
                 height: 2,
@@ -306,14 +306,14 @@ class GarmentThumbnail extends StatelessWidget {
                   Text('\$${item.curentPrice.ceil()}',
                       style: Theme.of(context)
                           .textTheme
-                          .headline6!
+                          .titleLarge!
                           .copyWith(fontSize: 16, color: Colors.brown)),
                   const SizedBox(
                     width: 4,
                   ),
                   if (item.rebate != 0)
                     Text('\$${item.realPrice.ceil()}',
-                        style: Theme.of(context).textTheme.headline6!.copyWith(
+                        style: Theme.of(context).textTheme.titleLarge!.copyWith(
                             fontSize: 10, color: Colors.grey.shade500)),
                 ],
               )

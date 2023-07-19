@@ -147,7 +147,7 @@ class OnBoardingCard extends StatelessWidget {
                   item.subtitle,
                   style: Theme.of(context)
                       .textTheme
-                      .bodyText1!
+                      .bodyLarge!
                       .copyWith(color: Colors.white60, fontSize: 16),
                 ),
                 const SizedBox(
@@ -157,7 +157,7 @@ class OnBoardingCard extends StatelessWidget {
                   item.mainTitle,
                   style: Theme.of(context)
                       .textTheme
-                      .bodyText1!
+                      .bodyLarge!
                       .copyWith(color: Colors.white, fontSize: 35),
                 ),
               ],

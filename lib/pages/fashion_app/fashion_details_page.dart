@@ -45,6 +45,8 @@ class _FashionDetailsPageState extends State<FashionDetailsPage> {
             )),
         Positioned(
           bottom: 0,
+          width: size.width,
+          height: size.height * .40,
           child: Container(
               decoration: const BoxDecoration(
                 borderRadius: BorderRadius.only(
@@ -80,7 +82,7 @@ class _FashionDetailsPageState extends State<FashionDetailsPage> {
                     Text(widget.garment.name,
                         style: Theme.of(context)
                             .textTheme
-                            .headline6!
+                            .titleLarge!
                             .copyWith(fontSize: 25)),
                     const SizedBox(
                       height: 5,
@@ -90,7 +92,7 @@ class _FashionDetailsPageState extends State<FashionDetailsPage> {
                         Text('\$${widget.garment.curentPrice.ceil()}',
                             style: Theme.of(context)
                                 .textTheme
-                                .headline6!
+                                .titleLarge!
                                 .copyWith(fontSize: 18, color: Colors.brown)),
                         const SizedBox(
                           width: 6,
@@ -99,7 +101,7 @@ class _FashionDetailsPageState extends State<FashionDetailsPage> {
                           Text('\$${widget.garment.realPrice.ceil()}',
                               style: Theme.of(context)
                                   .textTheme
-                                  .headline6!
+                                  .titleLarge!
                                   .copyWith(
                                       fontSize: 12,
                                       color: Colors.grey.shade500)),
@@ -189,8 +191,6 @@ class _FashionDetailsPageState extends State<FashionDetailsPage> {
                   ],
                 ),
               )),
-          width: size.width,
-          height: size.height * .40,
         )
       ],
     );
